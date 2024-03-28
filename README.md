@@ -8,8 +8,11 @@ Se ha utilizado *Nes.css* para darle un toque "retro" a la aplicación web.
 - Obtiene frases de Chuck Norris de la API de Chuck Norris.
 - Muestra frases aleatorias de Chuck Norris.
 - Permite a los usuarios seleccionar una frase aleatoria por categorías.
-- Ofrece opciones de modo claro y oscuro para una mejor experiencia de usuario.
-
+- Modo Claro y Oscuro Persistente:
+    - Ofrece opciones de modo claro y oscuro para una mejor experiencia de usuario.
+    - Utiliza el almacenamiento local (LocalStorage) para guardar la preferencia de modo seleccionada.
+    - La preferencia de modo (ya sea oscuro o claro) se guarda incluso después de cerrar la pestaña del navegador. Cuando vuelvas a abrir la aplicación, se restaurará         automáticamente al modo que hayas seleccionado anteriormente.
+  
 ## Uso
 
 Visita la aplicación web de frases de Chuck Norris.
